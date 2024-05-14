@@ -25,7 +25,6 @@ This project aims to solve the challenging and amusing task of teaching a comput
 ## Files
 
 - `Report.pdf`: The detailed project report.
-- `dataset/`: Directory containing the dataset images.
 - `SMfML_Rinaldi_Cannone.ipynb`: Jupyter notebook used for experimentation and analysis.
 
 ## Requirements
@@ -43,21 +42,7 @@ This project aims to solve the challenging and amusing task of teaching a comput
 
 1. **Data Preprocessing and Training**:
    - Open and run the `SMfML_Rinaldi_Cannone.ipynb` notebook to preprocess the dataset, train the models, and evaluate their performance.
-
-## Project Structure
-
-```
-muffins-vs-chihuahuas/
-│
-├── dataset/
-│   ├── test/
-│   └── train/
-│
-├── SMfML_Rinaldi_Cannone.ipynb
-├── Report.pdf
-└── README.md
-```
-
+  
 ## Results
 
 The results of our experiments show that EfficientNet, combined with Bayesian Optimization for hyperparameter tuning, achieved the highest accuracy and robustness among all tested models. The detailed results and risk estimates can be found in the `Results` section of the project report.
